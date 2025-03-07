@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ffcccb, #ffb6c1);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            color: #ff1493;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery img {
+            width: 400px;
+            height: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .caption {
+            font-size: 16px;
+            color: #d10068;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: white;
+            background: linear-gradient(45deg, #ff1493, #ff007f);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background: linear-gradient(45deg, #ff007f, #ff1493);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Our Beautiful Memories ❤️</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.04.25_2e3cb626.jpg" alt="Memory 1">
+                <p class="caption">💖 Our bond 💖</p>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.07.07_632a335e.jpg" alt="Memory 2">
+                <p class="caption">💞 The best trip ever 💞</p>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.07.14_800a67f1.jpg" alt="Memory 3">
+                <p class="caption">💕 A moment to cherish 💕</p>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.07.23_4634e28f.jpg" alt="Memory 4">
+                <p class="caption">💗 Sweet memories together 💗</p>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.09.35_8c34a164.jpg" alt="Memory 5">
+                <p class="caption">💘 Forever in my heart 💘</p>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2025-03-07 at 20.15.25_a384ac49.jpg" alt="Memory 6">
+                <p class="caption">❤️ Endless love ❤️</p>
+            </div>
+        </div>
+        <a href="index.html" class="button">Go Back</a>
+        <a href="birthday.html" class="button">Open It 🎁</a>
+
+
+    </div>
+</body>
+</html>
